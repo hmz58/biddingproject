@@ -119,4 +119,4 @@ def profile():
     # User is not loggedin redirect to login page
     return redirect(url_for('login'))
 	
-app.run(debug=True)
+app.run(host= '0.0.0.0')
